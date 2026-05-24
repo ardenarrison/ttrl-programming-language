@@ -1,1 +1,23 @@
-print Hello, World!
+// variables
+int x = 10
+float pi = 3.14
+string greeting = "Hello, World!"
+
+// math
+int result = x * 2 + 5
+float area = pi * x * x
+
+// print
+print greeting
+print "result is: " result
+print "area is: " area
+
+// function
+function double(n) {
+    int doubled = n * 2
+    print "doubled: " doubled
+}
+
+double(7)
+x++
+print "x after increment: " x
